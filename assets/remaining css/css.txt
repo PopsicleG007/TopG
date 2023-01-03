@@ -1,0 +1,204 @@
+nav {
+    background-color: white;
+}
+nav > ul > div.texts > li > a > img {
+  height: 42px;
+  width: 44.75px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
+nav ul div.texts li a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  /* display: inline-block; */
+  padding: 24px 14px;
+  vertical-align: middle;
+}
+nav ul{
+  display: flex;
+}
+nav ul div li {
+  list-style-type: none;
+  display: inline-block;
+  align-content: center;
+  padding: 24px 14px; 
+}
+nav ul div.texts li.text a:hover{
+  background-color: #04AA6D;
+  color: white;
+}
+.icons{
+   margin-left: 3rem; 
+}
+.icons i.fa-circle-half-stroke{
+  transform: rotate(180deg);
+}
+.icons i.fa-solid{
+  color: black;
+}
+.icons i.fa-solid:hover{
+  color: #04AA6D;
+}
+
+.upgrade{
+  background-color: #282A3E;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+}
+.certified{
+  background-color: #FFC0C7;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+}
+.create{
+  background-color: #FFF4A3;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+}
+.login{
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+}
+
+
+
+
+html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assests/css/w3.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <div class="html">
+            <div class="left-section box">
+                <h1>HTML</h1>
+                <p>The language for building web pages</p>
+                <a href="#" class="btn1">Learn HTML</a>
+                <a href="#" class="btn2">Learn HTML</a>
+                <a href="#" class="btn3">Learn HTML</a>
+                <a href="#" class="btn4">Learn HTML</a>
+            </div>
+            <div class="right-section box">
+                <div class="example">
+                    <h1>HTML Example</h1>
+                    <div class="code">
+                        <!DOCTYPE html> <br>
+                        <html>
+                        <br>
+                        <title>HTML Tutorial</title>
+                        <br><br>
+
+                        <body><br><br>
+
+                            <h1>This is a heading</h1><br>
+                            <p>This is a paragraph.</p><br>
+                        </body><br>
+                        </html>
+                    </div>
+                    <a href="#" class="btn1 try-yourself">Learn HTML</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+
+
+
+
+
+CSS
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.html{
+    background-color: bisque    ;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-section{
+    text-align: center;
+}
+.box{
+    padding: 2.5rem;
+    flex: 1 1 300px;
+
+}
+.left-section a{
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 30px;
+    width: 200px;
+    margin: 1.5rem auto;
+}
+.left-section h1{
+    font-size: 60px;
+}
+.left-section p{
+    font-size: 32px;
+}
+.btn1{
+    background-color: green;
+    color: #fff;
+}
+.btn2{
+    background-color: yellow;
+}
+.btn3{
+    background-color: black;
+    color: #fff;
+}
+.btn4{
+    background-color: pink;
+}
+
+
+
+.example{
+    padding: 1rem;
+    background-color: rgb(174, 170, 163);
+}
+.example h1{
+    padding: 1rem 0 ;
+}
+.code{
+    background-color: #fff;
+    padding: 1rem;
+    border-left: 5px solid green;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    height: 300px;
+}
+.try-yourself
+{
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    text-decoration: none;  
+}

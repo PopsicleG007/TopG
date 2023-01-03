@@ -1,0 +1,7 @@
+Types of media query!!!!!!
+@media()
+@media screen and()
+@media only screen()
+@media print()	
+&lt=<
+&gt=>
